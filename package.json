@@ -38,7 +38,8 @@
     "start": "concurrently \"node server/server.js\" \"react-scripts start\"",
     "build": "concurrently \"node server/server.js\" \"react-scripts build\"",
     "test": "concurrently \"node server/server.js\" \"react-scripts test\"",
-    "eject": "concurrently \"node server/server.js\" \"react-scripts eject\""
+    "eject": "concurrently \"node server/server.js\" \"react-scripts eject\"",
+    "postinstall": "npm run start"
   },
   "eslintConfig": {
     "extends": [
